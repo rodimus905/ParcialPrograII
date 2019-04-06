@@ -1,0 +1,2 @@
+Se  puede decir que el lenguaje comnpilado se guarda como codigo de maquina y que inmediatamente la maquina puede empezar a llevar a cabo las instrucciones que estan en este codigo
+Sin embargo el lenguaje interpretado, esta en un codigo diferente y cada vez que se ejecuta la maquina lo traduce a un codigo que pueda entender, esto se realiza cada vez que se ejecute el codigo, la traduccion no se guarda se interpreta cada vez
