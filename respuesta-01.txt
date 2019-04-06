@@ -1,0 +1,19 @@
+448  ls
+  449  mkdir Marvel
+  450  ls
+  451  cd Marvel/
+  452  touch iroman.txt
+  453  touch thor.md
+  454  touch capitanamerica.sh
+  455  touch panteranegra.cpp
+  456  touch spiderman.ino
+  457  touch starlord.png
+  458  touch drstrange.jpg
+  459  cd .
+  460  cd..
+  461  cd ..
+  462  mkdir Thanos
+  463  ls
+  464  cd Thanos/
+  465  touch snap.sh
+
