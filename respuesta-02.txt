@@ -1,2 +1,15 @@
 Se  puede decir que el lenguaje comnpilado se guarda como codigo de maquina y que inmediatamente la maquina puede empezar a llevar a cabo las instrucciones que estan en este codigo
 Sin embargo el lenguaje interpretado, esta en un codigo diferente y cada vez que se ejecuta la maquina lo traduce a un codigo que pueda entender, esto se realiza cada vez que se ejecute el codigo, la traduccion no se guarda se interpreta cada vez
+Diferencias::
+**El lenguaje interpretado solo necesita el archivo donde esta contenido el programa para ejecutarlo, el compilado solo puede ejecutarse si se tiene el programa ya en codigo maquina despues de compiar
+**El lenguaje compilado es mas rapido por que las instrucciones estan en codigo maquina, el lenguaje interpretado debe primero traducir el texto del programa en codigo legible al sistema primero cada vez que el programa se ejecuta
+** El lenguaje interpretado es mas portatil ya que solo se necesita adaptar el entorno sobre el que corre al sistema en cuestion. El lenguaje compilado puede requerir que el codigo se adapte segun el sistema sobre el que se vaya a ejecutar
+
+
+Pasos de Compilacion de un programa en c++
+
+**El programa se pasa primero al preprocesador cpp que ejecuta macros como #include o #define. da un archivo en .i
+**El programa se pasa al compilador, g++ que toma el archivo anterior y traduce el codigo expandido en c++ a lenguaje ensablador, produce un archivo .as
+**Este archivo en lenguaje ensamblador se pasa al assembler as que produce ya un codigo objeto .o, este aun no se puede ejectutar
+**Para ejecutarse necesita llevarse el codigo objeto al linker ld que enlaza o muestra al programa donde estan las diferentes librerias del sistema que necesita para su ejecucion
+
