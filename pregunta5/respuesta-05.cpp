@@ -3,11 +3,14 @@
 using namespace std;
 
 int main()
-{
-    int n = 0;
+{	
+    int contador = 0;
+    int n;
     cin >> n;
     while(n > 1)
-    {
+    {	
+	
+	contador++;
         if( n % 2 == 0)
         {
             n = n / 2;
@@ -16,6 +19,7 @@ int main()
         {
             n = 3 * n + 1;
         }
-        cout << n << endl;
+	cout << n << endl;
     }
+        cout << "El numero de pasos es :" << contador << endl;
 }
